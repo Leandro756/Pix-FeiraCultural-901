@@ -96,7 +96,7 @@
 
       if (nome && mensagem) {
         await addDoc(collection(db, "mensagens"), {
-          nome,
+          nome ,
           mensagem,
           data: serverTimestamp()
         });
