@@ -58,7 +58,7 @@
     const mensagemInput = document.getElementById('mensagem');
     const mensagensDiv = document.getElementById('mensagens');
 
-    const emojisAleatorios = ["🥳","💪🏽","😎","🦅","🤩","🍾","🤑","🤓","🩵","❤️‍🔥"];
+    const emojisAleatorios = ["🥳","💪🏽","😎","🦅","🤩","🍾","🤑","🤓","🩵","❤"];
 
     async function carregarMensagens() {
       mensagensDiv.innerHTML = "";
