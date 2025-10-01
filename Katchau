@@ -68,7 +68,6 @@
         const dados = doc.data();
 
         let mensagemComEmojis = dados.mensagem
-          .replace(/\bfé\b/gi, "🙏")
           .replace(/\bforça\b/gi, "💪")
           .replace(/\bamor\b/gi, "❤️")
           .replace(/\besperança\b/gi, "💚")
